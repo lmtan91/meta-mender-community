@@ -8,7 +8,7 @@
 
   <project name="poky" remote="yocto" revision="master" path="sources/poky"/>
   <project name="meta-openembedded" remote="oe" revision="master" path="sources/meta-openembedded"/>
-  <project name="meta-sunxi" remote="sunxi" revision="dunfell" path="sources/meta-sunxi"/>
+  <project name="meta-sunxi" remote="sunxi" revision="master" path="sources/meta-sunxi"/>
 
   <include name="scripts/mender.xml"/>
 
