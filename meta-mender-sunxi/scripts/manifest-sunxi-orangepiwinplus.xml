@@ -9,7 +9,7 @@
   <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
   <project name="meta-sunxi" remote="sunxi" revision="dunfell" path="sources/meta-sunxi"/>
-  <project name="meta-orangepiwinplus" remote="sunxi" revision="main" path="sources/meta-orangepiwinplus"/>
+  <project name="meta-orangepiwinplus" remote="sunxi" revision="master" path="sources/meta-orangepiwinplus"/>
 
   <include name="scripts/mender.xml"/>
 
