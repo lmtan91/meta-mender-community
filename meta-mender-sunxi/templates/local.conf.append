@@ -18,6 +18,9 @@ MENDER_IMAGE_BOOTLOADER_BOOTSECTOR_OFFSET="16"
 MENDER_STORAGE_DEVICE_nanopi-m1-plus = "/dev/mmcblk1"
 MENDER_UBOOT_STORAGE_DEVICE_nanopi-m1-plus = "0"
 
+MENDER_STORAGE_DEVICE_orange-pi-win-plus = "/dev/mmcblk1"
+MENDER_UBOOT_STORAGE_DEVICE_orange-pi-win-plus = "0"
+
 # NanoPi, uncomment this for eMMC. Remember to remove above!
 #MENDER_STORAGE_DEVICE_nanopi-m1-plus = "/dev/mmcblk3"
 #MENDER_UBOOT_STORAGE_DEVICE_nanopi-m1-plus = "1"
