@@ -3,13 +3,14 @@
   <default sync-j="4" revision="dunfell"/>
 
   <remote fetch="git://git.yoctoproject.org"        name="yocto"/>
-  <remote fetch="git://github.com/lmtan91"      name="lmtan91"/>
+  <remote fetch="git://github.com/lmtan91"      name="sunxi"/>
+  <remote fetch="ssh://git@github.com/lmtan91"      name="orangepiwinplus"/>
   <remote fetch="git://git.openembedded.org"        name="oe"/>
 
   <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
-  <project name="meta-sunxi" remote="lmtan91" revision="dunfell" path="sources/meta-sunxi"/>
-  <project name="meta-orangepiwinplus" remote="lmtan91" revision="main" path="sources/meta-orangepiwinplus"/>
+  <project name="meta-sunxi" remote="sunxi" revision="dunfell" path="sources/meta-sunxi"/>
+  <project name="meta-orangepiwinplus" remote="orangepiwinplus" revision="master" path="sources/meta-orangepiwinplus"/>
 
   <include name="scripts/mender.xml"/>
 
