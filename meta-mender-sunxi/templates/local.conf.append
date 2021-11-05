@@ -28,3 +28,6 @@ MENDER_UBOOT_STORAGE_DEVICE_orange-pi-win-plus = "0"
 # disable uefi
 MENDER_FEATURES_ENABLE_append = " mender-uboot mender-image-sd"
 MENDER_FEATURES_DISABLE_append = " mender-grub mender-image-uefi"
+
+# use version in meta-orangepiwinplus
+PREFERRED_VERSION_linux-mainline ?= "5.14%"
