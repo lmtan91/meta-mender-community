@@ -31,3 +31,7 @@ MENDER_FEATURES_DISABLE_append = " mender-grub mender-image-uefi"
 
 # use version in meta-orangepiwinplus
 PREFERRED_VERSION_linux-mainline ?= "5.14%"
+
+DISTRO_FEATURES_append = " wifi"
+IMAGE_INSTALL_append = " linux-firmware-bcm43430"
+CORE_IMAGE_EXTRA_INSTALL += "dhcp-server dhcp-client"
