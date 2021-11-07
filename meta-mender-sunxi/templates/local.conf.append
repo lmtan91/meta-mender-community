@@ -35,4 +35,5 @@ PREFERRED_VERSION_linux-mainline ?= "5.14%"
 DISTRO_FEATURES_append = " wifi"
 IMAGE_INSTALL_append = " linux-firmware-bcm43430"
 CORE_IMAGE_EXTRA_INSTALL += "dhcp-server dhcp-client"
-EXTRA_IMAGE_FEATURES += "ssh-server-openssl"
+
+EXTRA_IMAGE_FEATURES ?= "allow-empty-password allow-root-login bash-completion-pkgs dbg-pkgs debug-tweaks dev-pkgs doc doc-pkgs eclipse-debug empty-root-password hwcodecs nfs-client nfs-server package-management post-install-logging ptest-pkgs read-only-rootfs splash src-pkgs ssh-server-dropbear ssh-server-openssh stateless-rootfs staticdev-pkgs tools-debug tools-profile tools-sdk tools-testapps x11 x11-base x11-sato"
